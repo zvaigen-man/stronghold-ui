@@ -1,0 +1,43 @@
+.page-wrapper {
+    width: 100%;
+    padding: 0px 0 40px 0px;
+    .page-header {
+        height: 61px;
+        border-bottom: 1px solid #dcdfe3;
+        padding: 0 0 0 65px;
+        align-items: center;
+        .refresh {
+            margin-left: 20px;
+        }
+        .back {
+            width: 70px;
+            height: 100%;
+            border-right: 1px solid #dcdfe3;
+            display: flex;
+            align-items: center;
+        }
+        .proj-name {
+            font-weight: bold;
+            font-size: 23px;
+        }
+    }
+    .project-details {
+        margin: 0 2.5% 0 2.5%;
+        height: fit-content;
+        flex: 1;
+        width: 50%;
+        &.experiments {
+            margin-top: 60px;
+        }
+        &-head {
+            text-align: left;
+            height: 30px;
+            height: 30px;
+            padding: 5px;
+            align-items: start;
+            .container-right {
+                font-size: 14px;
+            }
+        }
+    }
+}

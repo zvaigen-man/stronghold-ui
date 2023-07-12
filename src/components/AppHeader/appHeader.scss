@@ -1,0 +1,37 @@
+header,
+.header-wrapper {
+  // background-color: var(--black_color) !important;
+  background-color: beige;
+  flex-grow: 1;
+  .header-content {
+    padding-left: 24px;
+    .compamy-title {
+      margin: 5px 16px 0px 10px;
+      font-weight: 500;
+      font-size: 19px;
+    }
+    .divider {
+      background-color: var(--grey_color);
+      height: 18px;
+      width: 1px;
+    }
+    .app-title {
+      font-weight: 500;
+      font-size: 19px;
+      margin: 5px 16px 0px 16px;
+    }
+  }
+}
+.profile {
+  font-weight: 500;
+  font-size: 18px;
+  align-items: center;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background: var(--blue_color);
+  margin-right: 12px;
+  span {
+    transform: translate(0px, 10%);
+  }
+}

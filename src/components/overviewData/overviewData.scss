@@ -1,0 +1,15 @@
+.overview-wrapper {
+    height: 100vh;
+    width: 15%;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    align-items: center;
+    position: sticky;
+    top: -1px;
+    right: 0px;
+    .item {
+        margin: 20px auto;
+    }
+}

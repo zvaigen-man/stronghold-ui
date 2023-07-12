@@ -1,0 +1,32 @@
+.search {
+    position: relative;
+    height: 35px;
+    width: 450PX;
+    margin: 0 auto 5px auto;
+    border-radius: 20px;
+    border: 0.5px solid grey;
+    overflow: hidden;
+    
+    input {
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        margin-top: 1px;
+        padding-left: 14px;
+        width: 100%;
+    }
+    .search-btn {
+        height: 14px;
+        width: 14px;
+    
+    }
+    .search-icon {
+        width: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+}    
+.search:focus-within {
+    border: 2px solid var(--main_color);
+  }

@@ -1,0 +1,21 @@
+.stepper-wrapper {
+    min-width: 200px;
+    padding: 20px 0px 0px 0px;
+    .MuiStepLabel-label b {
+        color: var(--black_color) !important;
+        font-weight: normal;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    .MuiStepLabel-labelContainer {
+        width: unset;
+    }
+
+    .MuiSvgIcon-root.Mui-active {
+        color: var(--turquoise_color) !important;
+    }
+    .label {
+    }
+    // .content-wrapper {
+    // }
+}
